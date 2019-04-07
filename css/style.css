@@ -262,6 +262,10 @@ i:before {
   text-align: center;
   margin-bottom: 60px;
 }
+.single_pest_title_modal{
+  text-align: center;
+  margin-bottom: 10px;
+}
 
 .single_pest_title h2 {
   font-size: 36px;
@@ -272,7 +276,15 @@ i:before {
   padding-bottom: 10px;
   margin-bottom: 0px;
 }
-
+.single_pest_title_modal h2 {
+  font-size: 36px;
+  color: #3e606b;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
 .single_pest_title h2:before {
   content: "";
   width: 40px;
@@ -2656,10 +2668,18 @@ i:before {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   color: #242424;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.discover_item_inner .discover_item p {
+.discover_item_inner .discover_item h4 span {
+  float: right;
+  color: #e3764b;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+/* .discover_item_inner .discover_item p {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   color: #797979;
@@ -2672,7 +2692,7 @@ i:before {
   font-size: 20px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-}
+} */
 
 .menu_d_two .discover_menu_inner {
   margin: 0px;
