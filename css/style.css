@@ -594,8 +594,8 @@ i:before {
 }
 
 .main_menu_area .navbar.navbar-expand-lg .navbar-brand:after {
-  /* content: ""; */
-  /* background: url(img/logo-circle-2.png) no-repeat scroll center center;
+  /* content: "";
+  background: url(img/logo-circle-2.png) no-repeat scroll center center;
   height: 201px;
   width: 209px;
   position: absolute;
